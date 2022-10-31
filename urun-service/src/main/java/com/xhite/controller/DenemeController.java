@@ -1,4 +1,4 @@
-package controller;
+package com.xhite.controller;
 
 import org.springframework.web.bind.annotation.*;
 

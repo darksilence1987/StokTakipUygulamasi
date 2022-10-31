@@ -6,6 +6,7 @@ import com.xhite.rabbitMq.model.CreateStok;
 import com.xhite.service.StokService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -25,7 +26,8 @@ public class StokController {
         return ResponseEntity.ok(IStokMapper.INSTANCE.toStokResponseDtoList(stokService.findAll()));
     }
     @PostMapping(SAVE_STOK)
-    public void saveStok(CreateStok createStok){
+    public void saveStok(@RequestBody CreateStok createStok){
+        System.out.println(createStok.toString());
         stokService.stokKaydet(createStok);
     }
 }

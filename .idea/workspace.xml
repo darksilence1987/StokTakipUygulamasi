@@ -5,21 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02b9278d-e6c8-465f-83f9-02633d0424a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/manager/StokServiceManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urun-service/src/main/java/controller/DenemeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stok-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/stok-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/constants/EndPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/constants/EndPoints.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/controller/StokController.java" beforeDir="false" afterPath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/controller/StokController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/rabbitMq/consumer/CreateStokConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/rabbitMq/consumer/CreateStokConsumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/service/StokService.java" beforeDir="false" afterPath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/service/StokService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urun-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/urun-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/constants/EndPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/constants/EndPoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/UrunServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/UrunServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/mapper/IUrunMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/mapper/IUrunMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/rabbitMq/producer/CreateStokProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/rabbitMq/producer/CreateStokProducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/service/UrunService.java" beforeDir="false" afterPath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/service/UrunService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urun-service/src/main/java/controller/UrunController.java" beforeDir="false" afterPath="$PROJECT_DIR$/urun-service/src/main/java/controller/UrunController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urun-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/urun-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urun-service/src/main/java/controller/DenemeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/controller/DenemeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urun-service/src/main/java/controller/UrunController.java" beforeDir="false" afterPath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/controller/UrunController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +57,11 @@
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -104,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667219145391</updated>
-      <workItem from="1667219149392" duration="13103000" />
+      <workItem from="1667219149392" duration="14720000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1667230504193</created>
@@ -113,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667230504193</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit">
+      <created>1667234413288</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667234413288</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

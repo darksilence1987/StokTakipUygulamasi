@@ -8,6 +8,7 @@ import com.xhite.utility.ServiceManager;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.Optional;
 
 @Service
 public class StokService extends ServiceManager<Stok, Long> {
@@ -26,15 +27,15 @@ public class StokService extends ServiceManager<Stok, Long> {
     }
     public void stokKaydet(CreateStok createStok)
     {
-        Stok stok = stokRepository.findOptionalByUrunIdAndDepoKonumu(createStok.getUrunId(), createStok.getDepoKonumu()).orElse(null);
-        if(stok == null)
+        Optional<Stok> stok = stokRepository.findOptionalByUrunIdAndDepoKonumu(createStok.getUrunId(), createStok.getDepoKonumu());
+        if(stok.isEmpty())
         {
             stokRepository.save(IStokMapper.INSTANCE.toStok(createStok));
         }
         else
         {
-            stok.setStokMiktari(stok.getStokMiktari() + createStok.getStokMiktari());
-            stokRepository.save(stok);
+            stok.get().setStokMiktari(stok.get().getStokMiktari() + createStok.getStokMiktari());
+            stokRepository.save(stok.get());
         }
     }
 }

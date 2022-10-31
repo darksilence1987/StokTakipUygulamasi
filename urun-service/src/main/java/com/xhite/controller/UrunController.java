@@ -1,4 +1,4 @@
-package controller;
+package com.xhite.controller;
 
 import com.xhite.dto.requests.UrunEklemeRequestDto;
 import com.xhite.dto.response.UrunResponseDto;

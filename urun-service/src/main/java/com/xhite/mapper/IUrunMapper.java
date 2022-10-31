@@ -14,6 +14,6 @@ import java.util.List;
 public interface IUrunMapper {
     IUrunMapper INSTANCE = Mappers.getMapper(IUrunMapper.class);
     Urun toUrun(final UrunEklemeRequestDto urunEklemeRequestDto);
-    CreateStok toStokBilgiDto(final UrunEklemeRequestDto urunEklemeRequestDto, final Long urunId);
+    CreateStok toCreateStok(final UrunEklemeRequestDto urunEklemeRequestDto);
     ArrayList<UrunResponseDto> toUrunResponseDtoList(final ArrayList<Urun> urunList);
 }
