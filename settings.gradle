@@ -1,2 +1,4 @@
 rootProject.name = 'StokTakipUygulamasi'
+include 'stok-service'
+include 'urun-service'
 

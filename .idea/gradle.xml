@@ -8,6 +8,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/stok-service" />
+            <option value="$PROJECT_DIR$/urun-service" />
           </set>
         </option>
       </GradleProjectSettings>
