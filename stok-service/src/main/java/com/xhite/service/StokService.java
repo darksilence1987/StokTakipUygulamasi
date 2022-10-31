@@ -1,5 +1,7 @@
 package com.xhite.service;
 
+import com.xhite.mapper.IStokMapper;
+import com.xhite.rabbitMq.model.CreateStok;
 import com.xhite.repository.IStokRepository;
 import com.xhite.repository.entities.Stok;
 import com.xhite.utility.ServiceManager;
@@ -21,5 +23,18 @@ public class StokService extends ServiceManager<Stok, Long> {
     public ArrayList<Stok> findAll()
     {
         return (ArrayList<Stok>) stokRepository.findAll();
+    }
+    public void stokKaydet(CreateStok createStok)
+    {
+        Stok stok = stokRepository.findOptionalByUrunIdAndDepoKonumu(createStok.getUrunId(), createStok.getDepoKonumu()).orElse(null);
+        if(stok == null)
+        {
+            stokRepository.save(IStokMapper.INSTANCE.toStok(createStok));
+        }
+        else
+        {
+            stok.setStokMiktari(stok.getStokMiktari() + createStok.getStokMiktari());
+            stokRepository.save(stok);
+        }
     }
 }

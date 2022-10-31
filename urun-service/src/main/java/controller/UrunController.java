@@ -6,9 +6,7 @@ import com.xhite.mapper.IUrunMapper;
 import com.xhite.repository.entities.Urun;
 import com.xhite.service.UrunService;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 
@@ -21,9 +19,9 @@ public class UrunController {
     public UrunController(UrunService urunService) {
         this.urunService = urunService;
     }
-    @PostMapping(FIND_ALL)
+    @GetMapping(FIND_ALL)
     public ResponseEntity<ArrayList<UrunResponseDto>> findAll(){
-        return ResponseEntity.ok(IUrunMapper.INSTANCE.toUrunResponseDtoList((ArrayList<Urun>) urunService.findAll()));
+        return ResponseEntity.ok(IUrunMapper.INSTANCE.toUrunResponseDtoList(urunService.findAll()));
     }
     @PostMapping(SAVE_URUN)
     public void saveUrun(UrunEklemeRequestDto urunEklemeRequestDto){

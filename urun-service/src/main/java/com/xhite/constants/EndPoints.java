@@ -6,4 +6,6 @@ public class EndPoints {
 
     public static final String FIND_ALL = "/findAll";
     public static final String SAVE_URUN = "/saveUrun";
+    public static final String STOK_SERVICE = "/stok-service";
+    public static final String SAVE_STOK = "/saveStok";
 }

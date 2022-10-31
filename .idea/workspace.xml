@@ -5,43 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02b9278d-e6c8-465f-83f9-02633d0424a2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/manager/StokServiceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/urun-service/src/main/java/controller/DenemeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependencies.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stok-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/stok-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/StokServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/StokServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/constants/EndPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/constants/EndPoints.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/controller/StokController.java" beforeDir="false" afterPath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/controller/StokController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/dto/response/StokResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/dto/response/StokResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/exception/ErrorMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/exception/ErrorMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/exception/ErrorType.java" beforeDir="false" afterPath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/exception/ErrorType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/exception/MicroServiceExceptionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/exception/MicroServiceExceptionManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/mapper/IStokMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/mapper/IStokMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/rabbitMq/consumer/CreateStokConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/rabbitMq/consumer/CreateStokConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/repository/IStokRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/repository/IStokRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/repository/entities/Stok.java" beforeDir="false" afterPath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/repository/entities/Stok.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/service/StokService.java" beforeDir="false" afterPath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/service/StokService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/utility/IService.java" beforeDir="false" afterPath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/utility/IService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/utility/ServiceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/stok-service/src/main/java/com/xhite/utility/ServiceManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stok-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/stok-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/urun-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/urun-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/UrunServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/UrunServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/constants/EndPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/constants/EndPoints.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/dto/StokBilgiDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/dto/StokBilgiDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/dto/requests/UrunEklemeRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/dto/requests/UrunEklemeRequestDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/dto/response/UrunResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/dto/response/UrunResponseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/exception/ErrorType.java" beforeDir="false" afterPath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/exception/ErrorType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/mapper/IUrunMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/mapper/IUrunMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/rabbitMq/model/CreateStok.java" beforeDir="false" afterPath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/rabbitMq/model/CreateStok.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/rabbitMq/producer/CreateStokProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/rabbitMq/producer/CreateStokProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/repository/IUrunRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/repository/IUrunRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/repository/entities/Urun.java" beforeDir="false" afterPath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/repository/entities/Urun.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/service/UrunService.java" beforeDir="false" afterPath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/service/UrunService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/utility/IService.java" beforeDir="false" afterPath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/utility/IService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/utility/ServiceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/urun-service/src/main/java/com/xhite/utility/ServiceManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/urun-service/src/main/java/controller/UrunController.java" beforeDir="false" afterPath="$PROJECT_DIR$/urun-service/src/main/java/controller/UrunController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/urun-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/urun-service/src/main/resources/application.yml" afterDir="false" />
     </list>
@@ -128,11 +104,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667219145391</updated>
-      <workItem from="1667219149392" duration="9387000" />
+      <workItem from="1667219149392" duration="13103000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1667230504193</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667230504193</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>
